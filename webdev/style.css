@@ -1,6 +1,7 @@
 html{
     /*background-image: linear-gradient(to right top, #3049ff, #007bff, #009dff, #00b8fe, #12cfeb);
 */
+    background-color: #F3EBF6;
     
 }
  
@@ -46,7 +47,7 @@ html{
     }
 
  p{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: black;
  }
  
@@ -63,6 +64,7 @@ html{
  }
  
  li{
+    font-family: 'Ubuntu', sans-serif;
      float: left;
      border-right: 1px solid #bbb;
  }
