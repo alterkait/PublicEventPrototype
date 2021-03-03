@@ -187,3 +187,104 @@ a{
         color: #E1BEE7;
         padding-top: 15px;
 }
+
+/*      EVENT BUTTONS       */
+
+
+.eb{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .02rem;
+    cursor: pointer;
+    background: transparent;
+    border: .5rem solid currentColor;
+    padding: 1.5rem 2rem;
+    font-size: 2.2rem;
+    color: #06c17f;
+    position: relative;
+    transition: color .3s;
+}
+
+.eb:hover{
+    color: pink;
+
+}
+
+.eb:active{
+    border-width: .5rem / 2;
+}
+
+span{
+    position: relative;
+    z-index: 2;
+}
+
+span::before, span::after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    transition: all .3s
+}
+
+
+
+/*  FOOTER STYLE */
+
+.foot{
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+}
+
+.foot ul{
+    padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.foot li{
+    padding: 0 10px;
+}
+
+.foot ul a{
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+
+.foot ul a:hover {
+    opacity:1;
+  }
+
+.foot .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+
+.footer .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+.foot .social > a:hover {
+    opacity:0.9;
+  }
+  
+.foot .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
