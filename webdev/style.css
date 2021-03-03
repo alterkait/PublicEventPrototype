@@ -187,3 +187,44 @@ a{
         color: #E1BEE7;
         padding-top: 15px;
 }
+
+/*      EVENT BUTTONS       */
+
+
+.eb{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .02rem;
+    cursor: pointer;
+    background: transparent;
+    border: .5rem solid currentColor;
+    padding: 1.5rem 2rem;
+    font-size: 2.2rem;
+    color: #06c17f;
+    position: relative;
+    transition: color .3s;
+}
+
+.eb:hover{
+    color: pink;
+
+}
+
+.eb:active{
+    border-width: .5rem / 2;
+}
+
+span{
+    position: relative;
+    z-index: 2;
+}
+
+span::before, span::after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    transition: all .3s
+}
+
+
+
+/*  FOOTER STYLE */
