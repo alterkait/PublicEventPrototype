@@ -7,7 +7,7 @@ html{
  
  h1{
      font-family: 'Helvetica', sans-serif;
-     color: aliceblue;
+     color: #383838;
      text-align: center;
      margin-top: 5%;
      font-size: 3em;
@@ -29,6 +29,12 @@ html{
     .div6 { grid-area: 1 / 1 / 3 / 2; }
     .div7 { grid-area: 3 / 1 / 4 / 2; }
     .div8 { grid-area: 4 / 1 / 5 / 2; }
+
+.seminar-img-exception{
+    width: 15em;
+    height: auto;
+
+}
 
 .seminar-img{
     width: 15em;
