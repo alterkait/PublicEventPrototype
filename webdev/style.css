@@ -1,19 +1,27 @@
 html{
-    /*background-image: linear-gradient(to right top, #3049ff, #007bff, #009dff, #00b8fe, #12cfeb);
-*/
-    background-color: #F3EBF6;
+  /*background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 46%, rgba(250,218,255,1) 100%);
+  */
     box-sizing: border-box;
     height: 100%;
     width: 100%;
+    background: #88bdbc;
     
 }
+
+.survey-body{
+  background: white;
+}
+
+
  
  h1{
-     font-family: 'Helvetica', sans-serif;
-     color: #383838;
+    font-family: 'PT Sans Narrow', sans-serif;
+     color: #454545;
      text-align: center;
-     margin-top: 5%;
-     font-size: 3em;
+     margin-top: 1%;
+     margin-bottom: 1%;
+     font-size: 9em;
  }
  
  .grid-container {
@@ -40,19 +48,19 @@ html{
   }
 
 .seminar-img-exception{
-    width: 15em;
+    width: 100%;
     height: auto;
 
 }
 
 .seminar-img{
-    width: 15em;
+    width: 100%;
     height: auto;
 }
 
  p{
-    font-family: 'Ubuntu', sans-serif;
-    color: black;
+  font-family: 'PT Sans', sans-serif;
+    color: #454545;
  }
  
  ul{
@@ -60,7 +68,7 @@ html{
      margin: 0;
      padding: 0;
      overflow: hidden;
-     background-color: #f1f1f1;
+     background-color: #88bdbc;
  
      position: fixed;
      top: 0;
@@ -70,7 +78,7 @@ html{
  li{
     font-family: 'Ubuntu', sans-serif;
      float: left;
-     border-right: 1px solid #bbb;
+     border-right: 1px solid #112d32;
  }
  
  li:last-child{
@@ -79,14 +87,14 @@ html{
  
  li a{
      display: block;
-     color: black;
+     color: #454545;
      text-align: center;
      padding: 14px 16px;
      text-decoration: none;
  }
  
  li a:hover{
-     background-color: #555;
+     background-color: #254e58;
      color: white;
  }
  
@@ -322,6 +330,10 @@ span::before, span::after{
 
 /*  FOOTER STYLE */
 
+.footer-link{
+
+}
+
 
 
 /*  NAVBAR STYLE */
@@ -332,13 +344,13 @@ span::before, span::after{
 
 /*  SURVEY STYLE */
 
-.inputGroup {
+.inputGroup{
     background-color: #fff;
     display: block;
     margin: 10px 0;
     position: relative;
   }
-  .inputGroup label {
+.inputGroup label {
     padding: 12px 30px;
     width: 100%;
     display: block;
@@ -350,7 +362,7 @@ span::before, span::after{
     transition: color 200ms ease-in;
     overflow: hidden;
   }
-  .inputGroup label:before {
+.inputGroup label:before {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -364,7 +376,7 @@ span::before, span::after{
     opacity: 0;
     z-index: -1;
   }
-  .inputGroup label:after {
+.inputGroup label:after {
     width: 32px;
     height: 32px;
     content: '';
@@ -382,18 +394,18 @@ span::before, span::after{
     cursor: pointer;
     transition: all 200ms ease-in;
   }
-  .inputGroup input:checked ~ label {
+.inputGroup input:checked ~ label {
     color: #fff;
   }
-  .inputGroup input:checked ~ label:before {
+.inputGroup input:checked ~ label:before {
     transform: translate(-50%, -50%) scale3d(56, 56, 1);
     opacity: 1;
   }
-  .inputGroup input:checked ~ label:after {
+.inputGroup input:checked ~ label:after {
     background-color: #54E0C7;
     border-color: #54E0C7;
   }
-  .inputGroup input {
+.inputGroup input {
     width: 32px;
     height: 32px;
     order: 1;
@@ -405,7 +417,7 @@ span::before, span::after{
     cursor: pointer;
     visibility: hidden;
   }
-  .form {
+.form {
     padding: 0 16px;
     max-width: 550px;
     margin: 50px auto;
@@ -415,7 +427,7 @@ span::before, span::after{
   }
  
  
-  code {
+code {
     background-color: #9AA3AC;
     padding: 0 8px;
   }
@@ -423,27 +435,27 @@ span::before, span::after{
 
   /*    SURVEY TEXTBOX  */
 
-  .textbox {
+.textbox {
     position: relative;
     padding: 15px 0 0;
     margin-top: 10px;
     width: 50%;
   }
 
-  .textbox-field {
+.textbox-field {
     font-family: inherit;
     width: 100%;
     border: 0;
     border-bottom: 2px solid #9b9b9b;
     outline: 0;
     font-size: 1.3rem;
-    color: #fff;
+    color: #000;
     padding: 7px 0;
     background: transparent;
     transition: border-color 0.2s; 
   } 
 
-.textbox-field::placeholder{
+  .textbox-field::placeholder{
       color:transparent;
 }
 
