@@ -13,6 +13,10 @@ html{
   background: white;
 }
 
+.page-title{
+  background-color: lightgoldenrodyellow;
+}
+
 
  
  h1{
@@ -103,7 +107,7 @@ html{
  }
 
 .adminlogin{
-    background-color: #F3EBF6;
+    background-color: #88bdbc;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -118,7 +122,7 @@ html{
 
 .sign{
     padding-top: 40px;
-    color: #8C55AA;
+    color: blue;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 23px;
@@ -176,7 +180,7 @@ form.loginform{
     cursor: pointer;
     border-radius: 5em;
     color: #fff;
-    background: linear-gradient(to right, #9C27B0, #E040FB);
+    background: linear-gradient(to right top, #0000ff, #1f25e5, #3133cb, #3d3caf, #464393);
     border: 0;
     padding-left: 40px;
     padding-right: 40px;
@@ -189,8 +193,8 @@ form.loginform{
 }
 
 .forgot{
-    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
-    color: #E1BEE7;
+    
+    color: blue;
     padding-top: 15px;
 }
 
@@ -330,9 +334,29 @@ span::before, span::after{
 
 /*  FOOTER STYLE */
 
-.footer-link{
+.site-footer{
+  
+}
+
+.copyright-text{
+  margin-bottom: 1%;
+  margin-top: 1%;
 
 }
+.footer-link{
+  
+  margin-top: 1%;
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.bottom-footer{
+  margin-left: 25%;
+}
+
+
 
 
 
@@ -344,11 +368,16 @@ span::before, span::after{
 
 /*  SURVEY STYLE */
 
+h3{
+  font-family: 'Questrial', sans-serif;
+}
+
 .inputGroup{
     background-color: #fff;
     display: block;
     margin: 10px 0;
     position: relative;
+    font-family: 'Questrial', sans-serif;
   }
 .inputGroup label {
     padding: 12px 30px;
@@ -420,7 +449,7 @@ span::before, span::after{
 .form {
     padding: 0 16px;
     max-width: 550px;
-    margin: 50px auto;
+    margin: 50 auto;
     font-size: 18px;
     font-weight: 600;
     line-height: 36px;
@@ -435,11 +464,12 @@ code {
 
   /*    SURVEY TEXTBOX  */
 
+
 .textbox {
     position: relative;
-    padding: 15px 0 0;
+    padding: 15px 1% 0;
     margin-top: 10px;
-    width: 50%;
+    width: 30%;
   }
 
 .textbox-field {
