@@ -1,79 +1,48 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css"/>
-        <script src="script.js"></script>
-        <!--Fonts from Google Fonts-->
-        <style>
-          @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
-        </style>
-        <style>
-          @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-          </style>
+<html lang="en">
+<head>
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
 
-    </head>
+</head>
+<body class="adminlogin">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="funders.html">Funders</a></li>
+        <li><a href="access.html">Accessibility</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+    <br>
+    <h1>Administrator Login</h1>
 
-    <body>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="feedback.html">Feedback</a></li>
-            <li><a href="funders.html">Funders</a></li>
-            <li><a href="access.html">Accessibility</a></li>
-            <li><a href="login.html">Login</a></li>
-        </ul>
-        
+    <!--The Login Box-->
+    <div class="login_container">
+        <p class="sign" align="center">Sign in</p>
+        <form class="loginform">
+            <input name="username" id="username" class="username" type="text" align="center" placeholder="Username">
+            <input name="password" id="password" class="password" type="password" align="center" placeholder="Password">
+            <a onclick=" return submitFunction();" class="submit" align="center">Sign in</a>
+            <p class="forgot" align="center"><a href="#">Forgot Password?</a></p>
+        </form>
+    </div>
 
-        
-        <br>
-        <div class="page-title">
-          <h1>-Company Name-</h1>
-        </div>
-        
-
-        <div class="grid-container">
-            <div class="main">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi consequuntur odit repudiandae in vero molestiae veniam velit quod debitis illum minus quas quae illo nostrum iusto itaque, blanditiis molestias recusandae!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit tenetur explicabo, quasi temporibus quo ullam, sequi ad ab quis fugiat eius deserunt! Sequi repellendus, quibusdam excepturi voluptas perspiciatis pariatur quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi est accusamus, ratione error aliquid nemo sed id rem ab quos unde delectus itaque iure, suscipit nostrum praesentium et repellat nobis? </p>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum doloribus odit, officia eligendi, corporis dolorem necessitatibus explicabo ducimus est voluptatum laboriosam tempore. Laborum, explicabo libero dignissimos quibusdam cupiditate cumque ex. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione rem voluptatem laudantium! Fugiat incidunt accusantium nisi animi quae perferendis nobis cum, sint amet! Exercitationem pariatur, quae recusandae hic reprehenderit quibusdam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus eligendi doloremque amet quod hic laborum laudantium fugit. Quas repudiandae laboriosam unde quae atque ab reprehenderit inventore, corporis, eligendi cum expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nam nesciunt incidunt iure voluptate quae, explicabo eos iste aperiam culpa nostrum illum molestiae provident atque ad officia numquam quas officiis.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, laboriosam maiores. Nesciunt modi, eveniet sed maxime officia accusamus quos tempore facilis soluta, libero unde vel incidunt! Provident numquam quam doloremque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, obcaecati quod officiis eveniet est animi ea maiores. Aut repellendus itaque consectetur, molestiae sunt ratione facere a eveniet corporis ad debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit distinctio blanditiis omnis ut quibusdam possimus libero veniam explicabo earum, aspernatur neque, reiciendis atque adipisci et? Molestias dolores atque aperiam maiores! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam ab commodi repudiandae at nobis laborum, nostrum iure fugiat, expedita voluptas dicta beatae neque hic numquam dolores esse nemo laboriosam! Corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iusto dignissimos mollitia. Tenetur provident dolor voluptatibus blanditiis harum, perferendis eveniet doloribus veniam tempore. Est fugit iusto aspernatur non dicta ipsa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo atque repellendus, autem nobis, perferendis rem vel illum fuga natus itaque aliquid voluptatum veniam officia delectus ea aut recusandae. Distinctio, aliquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem assumenda doloribus inventore ab tenetur dolor magnam, ex reiciendis vero maiores consectetur, explicabo voluptatem commodi ad. Commodi porro ut sint tempora.</p>
-            </div>
-
-            <!--Images-->
-            <div class="right1">
-              <img src="img/engaged.jpg" class="seminar-img-exception">
-            </div>
-            <div class="right2">
-              <img src="img/language.jpg" class="seminar-img">
-            </div>
-            <div class="right3">
-              <img src="img/seminar.jpg"  class="seminar-img">
-            </div>
-            <div class="left">
-                <p>lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit fugiat nihil distinctio est? Ab officiis porro, aut libero incidunt repellendus ullam voluptatum rem. Excepturi optio, ut laboriosam aliquid perspiciatis ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt itaque aperiam eum recusandae nostrum quam veniam harum eaque inventore nisi, est suscipit ipsa, explicabo aliquam. Corporis, vero necessitatibus? Ducimus, odit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum quos, a repellat aliquid qui, quasi voluptate illum totam voluptates magni at voluptatum est odio. Labore adipisci nisi possimus deserunt velit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores sapiente quibusdam voluptate nihil magni dolore eveniet mollitia sunt architecto est iusto, expedita et laudantium aspernatur aut odit repellat amet quaerat?</p>
-            </div>
-          </div>
-     
     <!-- Site footer -->
     <footer class="site-footer">
         <div>
-          <div class="row">
-          </div>
-          <hr>
+            <div class="row">
+        </div>
+        <hr>
         </div>
         <div>
-          <div class="row">
-            <div>
-              <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved</p>
-              <div class="bottom-footer">
-                <p class="footer-link">Privacy Policies</p>
-                <p class="footer-link">Terms of Use</p>
-                <p class="footer-link">Contact</p>
-              </div>
+            <div class="row">
+                <div>
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved</p>
+                </div>
             </div>
-          </div>
         </div>
     </footer>
-        
-        
-    </body>
+</body>
 </html>
