@@ -1,3 +1,5 @@
+//Only function here is to allow user to login with username=admin, password=password
+
 function submitFunction(){
     var user = document.getElementById("username").value;
     var pass = document.getElementById("password").value;
