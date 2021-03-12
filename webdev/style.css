@@ -12,17 +12,20 @@ html{
 }
 
 p{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Old Standard TT', serif;
+  /* font-family: 'PT Sans', sans-serif; */
   color: #454545;
 }
 
 h1{
-  font-family: 'PT Sans Narrow', sans-serif;
-   color: #454545;
+   font-family: 'Georgia', cursive;
+   text-transform: uppercase;
+   font-weight: bold;
+   color: white;
    text-align: center;
    margin-top: 1%;
    margin-bottom: 1%;
-   font-size: 9em;
+   font-size: 4em;
 }
 
 h2{
@@ -60,6 +63,8 @@ h3{
     }
     
     li a {
+      font-family: 'Old Standard TT', serif;
+      font-weight: bold;
       display: block;
       color: white;
       text-align: center;
@@ -77,8 +82,10 @@ h3{
       ===============
                       */
 
-  .page-title{
-    background-color: lightgoldenrodyellow;
+  .page-title {
+    color: white;
+    text-shadow: 4px 4px #0575E6;
+    /* background-color: lightgoldenrodyellow; */
   }
 
   /*  ==============
