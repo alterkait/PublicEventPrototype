@@ -6,78 +6,86 @@ html{
     box-sizing: border-box;
     height: 100%;
     width: 100%;
-    background: #88bdbc;
+    background: #00f260;
+    background: -webkit-linear-gradient(to right, #00f260, #0575e6); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00f260, #0575e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 p{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'TT Old Standard', serif;
   color: #454545;
 }
 
 h1{
-  font-family: 'PT Sans Narrow', sans-serif;
-   color: #454545;
+   font-family: 'PT Sans Narrow';
+   /* text-transform: uppercase; */
+   font-weight: bold;
+   color: white;
    text-align: center;
    margin-top: 1%;
    margin-bottom: 1%;
-   font-size: 9em;
+   font-size: 4em;
 }
 
 h2{
-
+  font-family: 'PT Sans Narrow';
+  color: #454545;
 }
 
 h3{
-  font-family: 'Questrial', sans-serif;
+  font-family: 'PT Sans Narrow';
+  color: #454545;
 }
 
 /*  ======================
     NAVIGATION BAR ON TOP OF PAGES
     ======================    */
 
-
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-    background-color: #88bdbc;
-  
-  position: fixed;
-  top: 0;
-  width: 100%;
-  }
-  
-  li{
-     font-family: 'Ubuntu', sans-serif;
+    ul {
+      list-style-type: none;
+      border-width: 5px; 
+      border-color: #0573E6;
+      border-style: outset;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #000;
+      /* background-color: #FF9900; */
+    }
+    
+    li {
       float: left;
-      border-right: 1px solid #112d32;
-  }
-  
-  li:last-child{
-      border-right: none;
-  }
-  
-  li a{
+      font-family: 'PT Sans Narrow';
+      font-weight: bold;
+    }
+
+    li:last-child
+    {
+      float: right;
+    }
+    
+    li a {
       display: block;
-      color: #454545;
+      color: white;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
-  }
-  
-  li a:hover{
-      background-color: #254e58;
-      color: white;
-  }
+    }
+
+    li a:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      background-color: #0575E6;
+    }
  
   /*  ===============
       PAGE TITLES 
       ===============
                       */
 
-  .page-title{
-    background-color: lightgoldenrodyellow;
+  .page-title {
+    color: white;
+    text-shadow: 4px 4px #0575E6;
+    /* background-color: lightgoldenrodyellow; */
   }
 
   /*  ==============
@@ -244,7 +252,6 @@ ul{
 */
 
 .adminlogin{
-  background-color: #88bdbc;
   font-family: 'Ubuntu', sans-serif;
 }
 
